@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Position_Validation
+  - Blinky
+  - pacdot
+  - ScoresText
   - Maze_Wall
   layers:
   - Default
@@ -15,6 +17,14 @@ TagManager:
   - UI
   - 
   - 
+  - Pause
+  - 
+  - 
+  - 
+  - Ghost
+  - Pacman
+  - MazeWalls
+  - Pacdots
   - 
   - 
   - 
@@ -22,14 +32,6 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - Position_Validation
-  - Maze_Walls
-  - PlayerLayer
   - 
   - 
   - 
