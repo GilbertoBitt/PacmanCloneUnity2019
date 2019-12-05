@@ -5,6 +5,7 @@ using UnityEngine;
 public class Energy : MonoBehaviour
 {
     public GameManager gameManager;
+    public bool hasBeenEaten = false;
     
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -12,7 +13,8 @@ public class Energy : MonoBehaviour
         {
             gameManager.AddScore(50);
             gameManager.RunFromPacman();
-            Destroy(gameObject);
+            hasBeenEaten = true;
+            gameObject.SetActive(false);
         }
     }
 }

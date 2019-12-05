@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &7503873
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -343,6 +344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &17895780
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -495,6 +497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &20922359
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -647,6 +650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &26560805
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -769,6 +773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &30637792
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -891,6 +896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &34283673
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1152,6 +1158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &45663382
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1274,6 +1281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &52901912
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1396,6 +1404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &53327913
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1518,6 +1527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &55519367
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1640,6 +1650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &67149394
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1762,6 +1773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &68434091
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1884,6 +1896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &69097816
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2006,6 +2019,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &72153667
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2128,6 +2142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &85621682
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2250,6 +2265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &91346502
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2326,6 +2342,106 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &93818139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 93818140}
+  - component: {fileID: 93818143}
+  - component: {fileID: 93818142}
+  - component: {fileID: 93818141}
+  m_Layer: 0
+  m_Name: CanvasWinGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &93818140
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93818139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1541662327}
+  - {fileID: 636568283}
+  m_Father: {fileID: 196434684}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &93818141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93818139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &93818142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93818139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &93818143
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93818139}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 2011096114}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 2
+  m_TargetDisplay: 0
 --- !u!1 &104938168
 GameObject:
   m_ObjectHideFlags: 0
@@ -2402,6 +2518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &108699781
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2530,6 +2647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &120610851
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2652,6 +2770,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &124076324
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2774,6 +2893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &124405941
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2926,6 +3046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &140199952
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3048,6 +3169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &142941442
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3170,6 +3292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &146403658
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3292,6 +3415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &147681660
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3414,6 +3538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &148518404
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3566,6 +3691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &157218944
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3688,6 +3814,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &162905888
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3810,6 +3937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &163786525
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3962,6 +4090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &179564653
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4084,6 +4213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &190848246
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4190,6 +4320,8 @@ Transform:
   - {fileID: 383257001}
   - {fileID: 1603111989}
   - {fileID: 1231550877}
+  - {fileID: 93818140}
+  - {fileID: 1680714195}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4239,6 +4371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &196757218
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4361,6 +4494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &199642342
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4519,6 +4653,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &209519076
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4641,6 +4776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &210919504
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4763,6 +4899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &212884524
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4885,6 +5022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &217827983
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5007,6 +5145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &224911629
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5129,6 +5268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &228954692
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5311,6 +5451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &237050957
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5433,6 +5574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &237166793
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5555,6 +5697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &241235734
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5677,6 +5820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &241913452
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5799,6 +5943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &255362706
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5921,6 +6066,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &257072774
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5997,6 +6143,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &263745593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 263745594}
+  - component: {fileID: 263745595}
+  m_Layer: 13
+  m_Name: InkyTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &263745594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263745593}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15, y: 11, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &263745595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263745593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0a799db14613fe43981cb6125463bc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetPosition: {x: 0, y: 0, z: 0}
+  pacmanTransform: {fileID: 508745663}
+  blinkyTransform: {fileID: 1937124099}
+  playerController: {fileID: 508745664}
 --- !u!1 &270966675
 GameObject:
   m_ObjectHideFlags: 0
@@ -6043,6 +6236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &270966678
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6165,6 +6359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &273116879
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8728,6 +8923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &278253798
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8850,6 +9046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &287137174
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8972,6 +9169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &291017101
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9094,6 +9292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &326636261
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9216,6 +9415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &328432610
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9338,6 +9538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &328997019
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9460,6 +9661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &333334920
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9612,6 +9814,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &335836219
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9734,6 +9937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &337266512
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9856,6 +10060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &337952239
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9978,6 +10183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &340341681
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10100,6 +10306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &353204982
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10222,6 +10429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &354937394
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10344,6 +10552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &360084688
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10466,6 +10675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &365078090
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10691,6 +10901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &372606912
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10813,6 +11024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &379363383
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10935,6 +11147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &380162062
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11057,6 +11270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &380689333
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11209,6 +11423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &386863751
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11403,6 +11618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &411100326
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11525,6 +11741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &420392888
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11740,6 +11957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &429536462
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11862,6 +12080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &430346541
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11984,6 +12203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &435769245
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12220,6 +12440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &460225515
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12372,6 +12593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &470288407
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12524,6 +12746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &477900874
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12646,6 +12869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &480523526
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12834,6 +13058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &504600937
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13010,7 +13235,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 15, y: 11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 774549830}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13027,6 +13253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.2
+  direction: {x: 0, y: 0}
   points:
     pointSprites:
     - {fileID: 184728, guid: 1021bcdb358271649a6f4784d0be6d4a, type: 3}
@@ -13037,6 +13264,7 @@ MonoBehaviour:
   validLayer:
     serializedVersion: 2
     m_Bits: 16384
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!50 &508745665
 Rigidbody2D:
   serializedVersion: 4
@@ -13120,6 +13348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &509326596
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13326,6 +13555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &532811732
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13486,6 +13716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &540167230
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13608,6 +13839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &540939808
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13730,6 +13962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &543021765
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13852,6 +14085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &543988388
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14077,6 +14311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &552404019
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14199,6 +14434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &552670683
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14321,6 +14557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &553272541
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14443,6 +14680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &557921228
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14565,6 +14803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &558931542
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14687,6 +14926,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &559010263
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14809,6 +15049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &559345572
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14931,6 +15172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &570212168
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15053,6 +15295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &577628333
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15175,6 +15418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &579320715
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15297,6 +15541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &583429205
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15405,6 +15650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &584561910
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15541,6 +15787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &584728771
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15723,6 +15970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &599738388
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15865,6 +16113,9 @@ MonoBehaviour:
     m_Bits: 16384
   isWhite: 0
   startPos: {fileID: 428655106}
+  insidePacmanSpawnArea: 0
+  insideGhostHouseEnterArea: 0
+  isClyde: 1
 --- !u!1 &604461563
 GameObject:
   m_ObjectHideFlags: 0
@@ -15911,6 +16162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &604461566
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16033,6 +16285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &612135845
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16205,6 +16458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &615296449
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16357,6 +16611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &626496742
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16552,6 +16807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &630088945
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16674,6 +16930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &630484266
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16796,6 +17053,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &633696977
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16918,6 +17176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &634350908
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16994,6 +17253,83 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &636568282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 636568283}
+  - component: {fileID: 636568285}
+  - component: {fileID: 636568284}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &636568283
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636568282}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 93818140}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0000061989, y: -37}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &636568284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636568282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.080822945, g: 1, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 24
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: You WIN!!!
+--- !u!222 &636568285
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636568282}
+  m_CullTransparentMesh: 0
 --- !u!1 &640070504
 GameObject:
   m_ObjectHideFlags: 0
@@ -17070,6 +17406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &648490929
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17192,6 +17529,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &651136786
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17314,6 +17652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &654010219
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17477,6 +17816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!1 &667310776
 GameObject:
   m_ObjectHideFlags: 0
@@ -17703,6 +18043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &700480207
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17909,6 +18250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &706388240
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18031,6 +18373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &707751928
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18153,6 +18496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &709503570
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18275,6 +18619,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &714450315
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18351,6 +18696,83 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &720437428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 720437429}
+  - component: {fileID: 720437431}
+  - component: {fileID: 720437430}
+  m_Layer: 0
+  m_Name: Text200Score
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &720437429
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720437428}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.08, y: 0.08, z: 0.08}
+  m_Children: []
+  m_Father: {fileID: 1680714195}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -301.97, y: -155}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &720437430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720437428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.99607843, g: 0.99607843, b: 0.99607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 093e796d1ac1559428a16cbfebe26dac, type: 3}
+    m_FontSize: 15
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 2
+  m_Text: 200
+--- !u!222 &720437431
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720437428}
+  m_CullTransparentMesh: 0
 --- !u!1 &720950639
 GameObject:
   m_ObjectHideFlags: 0
@@ -18397,6 +18819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &720950642
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18549,6 +18972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &728704847
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18728,6 +19152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!1 &770588890
 GameObject:
   m_ObjectHideFlags: 0
@@ -18774,6 +19199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &770588893
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18896,6 +19322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &773326189
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19018,6 +19445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &774469655
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19094,6 +19522,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &774549829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 774549830}
+  m_Layer: 13
+  m_Name: ClydeTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &774549830
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774549829}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 508745663}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &780411399
 GameObject:
   m_ObjectHideFlags: 0
@@ -19140,6 +19598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &780411402
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19262,6 +19721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &781248611
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19420,6 +19880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &788817431
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19542,6 +20003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &790483541
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19664,6 +20126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &810989857
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19786,6 +20249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &819302343
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19908,6 +20372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &820288712
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20030,6 +20495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &820509044
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20182,6 +20648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &821988243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20304,6 +20771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &830681988
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20426,6 +20894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &839265926
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20686,6 +21155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &861011897
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20808,6 +21278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &865065303
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20930,6 +21401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &872909467
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21052,6 +21524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &878526342
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21174,6 +21647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &885712559
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21376,6 +21850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &899109961
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21498,6 +21973,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &904718169
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21620,6 +22096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &905546660
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21778,6 +22255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &910410368
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21930,6 +22408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &917318461
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22112,6 +22591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &943049679
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22234,6 +22714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &943685456
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22356,6 +22837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &943687655
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22432,6 +22914,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &950910113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 950910114}
+  - component: {fileID: 950910115}
+  m_Layer: 13
+  m_Name: PinkTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &950910114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950910113}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15, y: 11, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &950910115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950910113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ec0b30e1fbdfb429145c723618a3cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetPosition: {x: 0, y: 0, z: 0}
+  pacmanTransform: {fileID: 508745663}
+  playerController: {fileID: 508745664}
 --- !u!1 &952466960
 GameObject:
   m_ObjectHideFlags: 0
@@ -22590,6 +23118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &966847724
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22712,6 +23241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &969951099
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22819,14 +23349,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameState: 0
   score: 0
-  playerLives: 0
+  playerLives: 3
   scoreText: {fileID: 1901435684}
   gameOverCanvas: {fileID: 1231550876}
+  winCanvas: {fileID: 93818143}
   ghostMoves:
   - {fileID: 604424691}
   - {fileID: 2080102584}
   - {fileID: 1686575257}
   - {fileID: 1937124097}
+  text200Points: {fileID: 720437429}
+  lifeDisplayItem:
+  - {fileID: 40127317}
+  - {fileID: 546060121}
+  - {fileID: 369675062}
+  pacmanController: {fileID: 508745664}
+  pacdotsRemaining: 80
+  pacDots: []
+  energies: []
+  isDone: 0
 --- !u!4 &971685789
 Transform:
   m_ObjectHideFlags: 0
@@ -22992,6 +23533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1008678838
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23114,6 +23656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1019667621
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23236,6 +23779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1020027827
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23388,6 +23932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1024622790
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23492,7 +24037,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1027099512
 GameObject:
@@ -23540,6 +24085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1027099515
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23668,6 +24214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1028512565
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23790,6 +24337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1032322129
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23912,6 +24460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1032503973
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24034,6 +24583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1034058683
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24156,6 +24706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1041466575
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24314,6 +24865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1063422580
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24436,6 +24988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1069370301
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24558,6 +25111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1072346710
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24730,6 +25284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1078871273
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24802,6 +25357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1079116050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24924,6 +25480,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1079904686
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25131,6 +25688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1084826380
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25349,6 +25907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1095666114
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25471,6 +26030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1096851359
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25593,6 +26153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1097006952
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25759,6 +26320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1099156584
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25881,6 +26443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1101187359
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26033,6 +26596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1105678402
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26155,6 +26719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1112149646
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26277,6 +26842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1115170092
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26399,6 +26965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1116384855
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26521,6 +27088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1118320465
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26643,6 +27211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1119749905
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26831,6 +27400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1126689853
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26953,6 +27523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1138361645
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27075,6 +27646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1144750703
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27197,6 +27769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1147749134
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27319,6 +27892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1155017334
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27441,6 +28015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1167038714
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27563,6 +28138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1171393135
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27721,6 +28297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1178619114
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27843,6 +28420,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1184248070
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27965,6 +28543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1195551144
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28117,6 +28696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1205395217
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28269,6 +28849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1213362239
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28391,6 +28972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1213600550
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28543,6 +29125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1218468315
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28665,6 +29248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1229832423
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28887,6 +29471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1238964262
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29009,6 +29594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1247830227
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29131,6 +29717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1253417544
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29253,6 +29840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1261595987
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29405,6 +29993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1266942988
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29527,6 +30116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1285996917
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29649,6 +30239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1305318986
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29771,6 +30362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1307725627
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29893,6 +30485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1308835951
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30015,6 +30608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1310540589
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30137,6 +30731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1311255646
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30259,6 +30854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1312071792
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30381,6 +30977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1314937515
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30503,6 +31100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1323504624
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30625,6 +31223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1325822491
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30747,6 +31346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1327233862
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30869,6 +31469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1339320123
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30991,6 +31592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1343974832
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31113,6 +31715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1347367695
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31265,6 +31868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1357657804
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31417,6 +32021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1362220161
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31539,6 +32144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1363172227
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31661,6 +32267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1366051793
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31783,6 +32390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1374179466
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31947,7 +32555,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1404495547
 GameObject:
@@ -31995,6 +32603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1404495550
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32117,6 +32726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1407290216
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32239,6 +32849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1416127552
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32361,6 +32972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1418569258
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32513,6 +33125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1426123403
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32635,6 +33248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1426447937
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32730,6 +33344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!1 &1440657766
 GameObject:
   m_ObjectHideFlags: 0
@@ -32812,6 +33427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1447625314
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32964,6 +33580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1465210787
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33086,6 +33703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1467471948
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33208,6 +33826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1468475758
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33330,6 +33949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1469841546
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33452,6 +34072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1473405116
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33574,6 +34195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1474781460
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33696,6 +34318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1476656066
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33818,6 +34441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1489956440
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33940,6 +34564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1491013739
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34092,6 +34717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1497701895
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34214,6 +34840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1514327388
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34336,6 +34963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1514460581
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34458,6 +35086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1516732340
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34580,6 +35209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1530455372
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34732,6 +35362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1536331753
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34890,6 +35521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1537667321
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34966,6 +35598,79 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1541662326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1541662327}
+  - component: {fileID: 1541662329}
+  - component: {fileID: 1541662328}
+  m_Layer: 0
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1541662327
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541662326}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 93818140}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1541662328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541662326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.46666667}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1541662329
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541662326}
+  m_CullTransparentMesh: 0
 --- !u!1 &1543271648
 GameObject:
   m_ObjectHideFlags: 0
@@ -35012,6 +35717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1543271651
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35205,6 +35911,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1554235207
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35327,6 +36034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1560053435
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35449,6 +36157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1564475075
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35601,6 +36310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1575779445
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35723,6 +36433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1586147969
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35845,6 +36556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1586469424
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35997,6 +36709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1596545086
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36155,6 +36868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1602345945
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36377,6 +37091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1607378330
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36499,6 +37214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1612542988
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36651,6 +37367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1617999496
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36773,6 +37490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1625149957
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36925,6 +37643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1639202646
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37047,6 +37766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1640235763
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37169,6 +37889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1640431172
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37291,6 +38012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1649874855
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37463,6 +38185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1650719814
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37585,6 +38308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1650741115
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37737,6 +38461,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1657735120
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37859,6 +38584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1658912105
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37981,6 +38707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1661412158
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38103,6 +38830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1666419779
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38279,6 +39007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1671284229
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38431,6 +39160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1671901092
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38526,6 +39256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!1 &1675247996
 GameObject:
   m_ObjectHideFlags: 0
@@ -38584,8 +39315,107 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1680714194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1680714195}
+  - component: {fileID: 1680714198}
+  - component: {fileID: 1680714197}
+  - component: {fileID: 1680714196}
+  m_Layer: 0
+  m_Name: Canvas_WorldSpace
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1680714195
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680714194}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 720437429}
+  m_Father: {fileID: 196434684}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 272, y: 170}
+  m_SizeDelta: {x: 544, y: 340}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1680714196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680714194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1680714197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680714194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1680714198
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680714194}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 2011096114}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &1681761521
 GameObject:
   m_ObjectHideFlags: 0
@@ -38632,6 +39462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1681761524
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38767,13 +39598,16 @@ MonoBehaviour:
   gameManager: {fileID: 971685788}
   state: 3
   targetTransform: {fileID: 0}
-  playerTransform: {fileID: 508745663}
+  playerTransform: {fileID: 263745594}
   scatterTransform: {fileID: 1024644292}
   layerMask:
     serializedVersion: 2
     m_Bits: 16384
   isWhite: 0
   startPos: {fileID: 428655106}
+  insidePacmanSpawnArea: 0
+  insideGhostHouseEnterArea: 0
+  isClyde: 0
 --- !u!1 &1688283108
 GameObject:
   m_ObjectHideFlags: 0
@@ -38820,6 +39654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1688283111
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39038,6 +39873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1698809042
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39160,6 +39996,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1700849943
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39282,6 +40119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1702832931
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39434,6 +40272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1717101249
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39592,6 +40431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1724415899
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39714,6 +40554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1725926249
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39866,6 +40707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1734861659
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39988,6 +40830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1743103742
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40110,6 +40953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1752554589
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40232,6 +41076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1760862084
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40354,6 +41199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1763563798
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40506,6 +41352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1769902376
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40628,6 +41475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1772144619
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40750,6 +41598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1777089382
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40908,6 +41757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1780194461
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41030,6 +41880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1786278051
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41236,6 +42087,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1800719126
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41358,6 +42210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1804455529
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41480,6 +42333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1805579397
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41602,6 +42456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1807730294
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41724,6 +42579,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1811561905
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41846,6 +42702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1811991160
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41968,6 +42825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1822923606
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42072,7 +42930,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1830281177
 GameObject:
@@ -42120,6 +42978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1830281180
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42272,6 +43131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1834613972
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42394,6 +43254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1838557985
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42516,6 +43377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1841643849
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42638,6 +43500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1849365318
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42714,6 +43577,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1851011622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1851011624}
+  - component: {fileID: 1851011623}
+  m_Layer: 13
+  m_Name: BlinkTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1851011623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851011622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c116f0c652d13e4daad05249ff1a2af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetPosition: {x: 0, y: 0, z: 0}
+  pacmanTransform: {fileID: 508745663}
+--- !u!4 &1851011624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851011622}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15, y: 11, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1868592529
 GameObject:
   m_ObjectHideFlags: 0
@@ -42760,6 +43668,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1868592532
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42882,6 +43791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1870069442
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43004,6 +43914,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1877586021
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43126,6 +44037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1881501261
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43314,6 +44226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1899285502
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43515,6 +44428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1912616868
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43714,6 +44628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1919576785
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43836,6 +44751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1920576511
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43958,6 +44874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1920840863
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44080,6 +44997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1923787849
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44208,6 +45126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1933214892
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44337,13 +45256,16 @@ MonoBehaviour:
   gameManager: {fileID: 971685788}
   state: 3
   targetTransform: {fileID: 0}
-  playerTransform: {fileID: 508745663}
+  playerTransform: {fileID: 1851011624}
   scatterTransform: {fileID: 1394806180}
   layerMask:
     serializedVersion: 2
     m_Bits: 16384
   isWhite: 0
   startPos: {fileID: 428655106}
+  insidePacmanSpawnArea: 0
+  insideGhostHouseEnterArea: 0
+  isClyde: 0
 --- !u!4 &1937124099 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454592, guid: 9f090580268dde54d8def18b84c4dbab,
@@ -44396,6 +45318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1940393605
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44548,6 +45471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1946934524
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44670,6 +45594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1968377044
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44792,6 +45717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1970742122
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44944,6 +45870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1972466695
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45066,6 +45993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1973142400
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45188,6 +46116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1973995349
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45310,6 +46239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1974153502
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45432,6 +46362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1976667848
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45610,6 +46541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &1979929281
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45792,6 +46724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2000063794
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45914,6 +46847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2003532845
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46036,6 +46970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2004548837
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46158,6 +47093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2006381357
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46280,6 +47216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2007941727
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46402,6 +47339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2008201810
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46524,6 +47462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2009933631
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46738,6 +47677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2013908682
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46860,6 +47800,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2020559519
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46982,6 +47923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2023842183
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47104,6 +48046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2024610858
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47286,6 +48229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2029810099
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47408,6 +48352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2034680790
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47530,6 +48475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2035448724
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47652,6 +48598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2041138493
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47774,6 +48721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2042707152
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47950,6 +48898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2066058280
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48055,13 +49004,16 @@ MonoBehaviour:
   gameManager: {fileID: 971685788}
   state: 3
   targetTransform: {fileID: 0}
-  playerTransform: {fileID: 508745663}
+  playerTransform: {fileID: 950910114}
   scatterTransform: {fileID: 1676711726}
   layerMask:
     serializedVersion: 2
     m_Bits: 16384
   isWhite: 0
   startPos: {fileID: 428655106}
+  insidePacmanSpawnArea: 0
+  insideGhostHouseEnterArea: 0
+  isClyde: 0
 --- !u!1 &2080386142
 GameObject:
   m_ObjectHideFlags: 0
@@ -48108,6 +49060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2080386145
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48290,6 +49243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2085746008
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48412,6 +49366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2087141423
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48595,6 +49550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2091494857
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48810,6 +49766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2114878013
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48962,6 +49919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2118376262
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49084,6 +50042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2120861173
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49206,6 +50165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 971685788}
+  hasBeenEaten: 0
 --- !u!61 &2127511150
 BoxCollider2D:
   m_ObjectHideFlags: 0

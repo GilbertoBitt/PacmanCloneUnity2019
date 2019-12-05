@@ -1,5 +1,6 @@
 ﻿public enum GameState
 {
     Running,
-    Dead
+    Dead,
+    Reviving
 }

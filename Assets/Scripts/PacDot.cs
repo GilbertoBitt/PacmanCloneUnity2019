@@ -6,6 +6,7 @@ using UnityEngine;
 public class PacDot : MonoBehaviour
 {
     public GameManager gameManager;
+    public bool hasBeenEaten = false;
 
     public void Start()
     {
@@ -17,7 +18,8 @@ public class PacDot : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             gameManager.AddScore(10);
-            Destroy(gameObject);
+            hasBeenEaten = true;
+            gameObject.SetActive(false);
         }
     }
 }

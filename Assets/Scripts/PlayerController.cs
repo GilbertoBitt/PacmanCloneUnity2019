@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 
     public float speed = 0.4f;
     Vector2 _destination = Vector2.zero;
-    Vector2 _direction = Vector2.zero;
+    public Vector2 direction = Vector2.zero;
     Vector2 _nextDirection = Vector2.zero;
 
     [Serializable]
@@ -27,13 +27,20 @@ public class PlayerController : MonoBehaviour
 
     public GameManager gameManager;
     private Rigidbody2D _rigidbody;
+    private Animator _animator;
     public LayerMask validLayer;
+    public Vector3 startPos;
 
     // Use this for initialization
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
         _destination = transform.position;
+        startPos = Vector3Int.RoundToInt(transform.position);
+        direction = Vector2.zero;
+        _nextDirection = Vector2.zero;
+        _rigidbody.velocity = Vector2.zero;
     }
 
     // Update is called once per frame
@@ -51,24 +58,30 @@ public class PlayerController : MonoBehaviour
                     StartCoroutine(nameof(PlayDeadAnimation));
                 break;
         }
+    }
 
+    public void ResetPacmanPos()
+    {
+        _animator.SetBool(Die, false);
+        _deadPlaying = false;
+        transform.position = startPos;
 
     }
 
-    IEnumerator PlayDeadAnimation()
+    public IEnumerator PlayDeadAnimation()
     {
         _deadPlaying = true;
-        GetComponent<Animator>().SetBool(Die, true);
+        _animator.SetBool(Die, true);
         yield return new WaitForSeconds(1);
-        GetComponent<Animator>().SetBool(Die, false);
+        _animator.SetBool(Die, false);
         _deadPlaying = false;
     }
 
     void Animate()
     {
         Vector2 dir = _destination - (Vector2)transform.position;
-        GetComponent<Animator>().SetFloat(DirX, dir.x);
-        GetComponent<Animator>().SetFloat(DirY, dir.y);
+        _animator.SetFloat(DirX, dir.x);
+        _animator.SetFloat(DirY, dir.y);
     }
 
     bool Valid(Vector2 direction)
@@ -82,8 +95,8 @@ public class PlayerController : MonoBehaviour
     public void ResetDestination()
     {
         _destination = new Vector2(15f, 11f);
-        GetComponent<Animator>().SetFloat(DirX, 1);
-        GetComponent<Animator>().SetFloat(DirY, 0);
+        _animator.SetFloat(DirX, 1);
+        _animator.SetFloat(DirY, 0);
     }
 
     void ReadInputAndMove()
@@ -102,16 +115,16 @@ public class PlayerController : MonoBehaviour
         if (Valid(_nextDirection))
         {
             _destination = (Vector2)transform.position + _nextDirection;
-            _direction = _nextDirection;
+            direction = _nextDirection;
         }
         else 
         {
-            if (Valid(_direction))
-                _destination = (Vector2)transform.position + _direction;
+            if (Valid(direction))
+                _destination = (Vector2)transform.position + direction;
         }
     }
 
-    public Vector2 GetDirection => _direction;
+    public Vector2 GetDirection => direction;
 
     public void UpdateScore()
     {
